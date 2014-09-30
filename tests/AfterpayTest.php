@@ -13,7 +13,6 @@ class AfterpayTest extends PHPUnit_Framework_TestCase {
     public function testUrlResponse()
     {
         $service = m::mock('Codeboard\Payments\Local\Afterpay');
-
     }
 
 }
